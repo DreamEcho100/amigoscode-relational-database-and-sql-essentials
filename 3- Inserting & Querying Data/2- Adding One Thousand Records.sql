@@ -5,3 +5,7 @@
 -- /i 'path'
 
 \i '/home/dreamecho100/Desktop/Main/GitHub/DreamEcho100/projects_courses_log/Amigoscode/Relational Database and SQL Essentials/person.sql'
+
+\i 'c:\\Users\\Public\\car.sql'
+
+\i 'c:\\Users\\Public\\person.sql'

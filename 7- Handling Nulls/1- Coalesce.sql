@@ -1,3 +1,7 @@
+-- PostgreSQL COALESCE function that returns the first non-null argument. 
+
+-- To apply this function in SELECT statement to handle null values effectively.
+
 SELECT COALESCE(1);
 
 SELECT COALESCE(1) AS "number";

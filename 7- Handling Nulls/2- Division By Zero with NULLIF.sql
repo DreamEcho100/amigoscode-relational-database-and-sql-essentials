@@ -1,4 +1,16 @@
+-- NULLIF
+
+-- PostgreSQL NULLIF function to handle null values or to prevent division-by-zero error
+
+-- NULLIF(argument_1,argument_2);
+
 SELECT 10 / 0; -- ERROR:  division by zero
+
+SELECT NULLIF('',  null);
+--  nullif 
+-- --------
+
+-- (1 row)
 
 SELECT NULLIF(10,  0);
 --  nullif 

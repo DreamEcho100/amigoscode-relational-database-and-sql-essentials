@@ -1,5 +1,19 @@
 -- LIKE/ILIKE
 
+-- PostgreSQL LIKE and ILIKE operators to query data using pattern matchings
+
+-- value LIKE pattern
+
+-- value NOT LIKE pattern
+
+-- The pattern _her% matches any string that:
+
+-- Begin with any single character (_)
+
+-- And is followed by the literal string her.
+
+-- And is ended with any number of characters.
+
 SELECT * FROM person WHERE email LIKE '%.com';
 
 SELECT * FROM person WHERE NOT email LIKE '%.com';
