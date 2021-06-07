@@ -10,6 +10,8 @@
 
 -- In other words, the WHERE clause is applied to rows while the HAVING clause is applied to groups of rows.
 
+SELECT email, COUNT(*) FROM person GROUP BY email HAVING COUNT(*) > 1;
+
 SELECT country_of_birth, COUNT(*) FROM person GROUP BY country_of_birth HAVING COUNT(*) > 5 ORDER BY country_of_birth;
 
 SELECT country_of_birth, COUNT(*) FROM person GROUP BY country_of_birth HAVING COUNT(*) > 5 ORDER BY count;

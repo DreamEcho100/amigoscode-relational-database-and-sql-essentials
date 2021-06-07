@@ -19,3 +19,10 @@ CREATE DATABASE test1;
 -- A very dangerous command
 
 DROP DATABASE test1; -- DANGEROUS, BE CARFUL WHEN USING IT
+
+
+-- \q | Exit psql connection
+-- \c | Connect to a new database
+-- \dt | List all tables
+-- \du | List all roles
+-- \list | List databases
